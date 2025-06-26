@@ -47,7 +47,7 @@ function WaitlistForm() {
     try {
       // Enviar dados para Google Sheets via Google Apps Script
       const response = await fetch(
-        'https://script.google.com/macros/s/AKfycbzQXYZ123456789/exec', // Substitua pela URL do seu Google Apps Script
+        'https://script.google.com/macros/s/AKfycbx97V-1jWUygTIcv8fDxU8Txeaqx3I-tl3UJvwT3HFpMaOnhdI9hS5_FR-UcwTdPm6JHQ/exec', // Substitua pela URL do seu Google Apps Script
         {
           method: 'POST',
           mode: 'no-cors',
